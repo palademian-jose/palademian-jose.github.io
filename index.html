@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zwe Yan Naing · Full-stack developer</title>
+  <meta name="description" content="Zwe Yan Naing is a full-stack developer in Bangkok. Frontend engineer on a live video streaming platform, with projects in React, TypeScript and Python.">
+  <meta property="og:title" content="Zwe Yan Naing · Full-stack developer">
+  <meta property="og:description" content="Interfaces people use, and the measurements behind them. React, TypeScript, Python.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0f0d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0f0d'/%3E%3Crect x='6' y='8' width='20' height='4' fill='%2345e0a8'/%3E%3Crect x='10' y='14' width='12' height='4' fill='%23ffb454'/%3E%3Crect x='14' y='20' width='12' height='4' fill='%2345e0a8'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to work</a>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Zwe Yan Naing, home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>zwe.yan.naing</span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#more">More</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme" type="button" id="theme" aria-label="Switch colour theme">
+      <span class="theme-dot" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse" aria-hidden="true"></span>Open to internships in Tokyo, 2027</p>
+        <h1>
+          <span class="line">Zwe Yan</span>
+          <span class="line">Naing<span class="dot">.</span></span>
+        </h1>
+        <p class="lede">Full-stack developer. I build interfaces people use, and I measure what I ship.</p>
+        <p class="sub">Main frontend engineer on a live video streaming platform. Final-year Computer Science student at Rangsit University, Bangkok.</p>
+        <div class="cta">
+          <a class="btn primary" href="#work">See the work</a>
+          <a class="btn" href="https://github.com/palademian-jose" rel="noopener">GitHub</a>
+          <a class="btn" href="mailto:aquilusnorman101@gmail.com">Email me</a>
+        </div>
+      </div>
+
+      <div class="trace" aria-label="Projects, drawn as a request trace">
+        <div class="trace-head">
+          <span class="trace-title">trace · portfolio.load</span>
+          <span class="trace-meta">8 spans · 0 errors</span>
+        </div>
+        <div class="trace-axis" aria-hidden="true"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+        <ol class="spans">
+          <li><a class="span root" href="#work" style="--x:0;--w:100;--d:0"><span class="s-name">zwe-yan-naing</span><span class="s-bar"><i></i></span><span class="s-note">full-stack</span></a></li>
+          <li><a class="span a" href="#p-24fm" style="--x:2;--w:46;--d:1"><span class="s-name">24framesmozart</span><span class="s-bar"><i></i></span><span class="s-note">live in production</span></a></li>
+          <li><a class="span a" href="#p-trace" style="--x:14;--w:38;--d:2"><span class="s-name">trace-explorer</span><span class="s-bar"><i></i></span><span class="s-note">54 tests · 0 a11y issues</span></a></li>
+          <li><a class="span b" href="#p-nhs" style="--x:26;--w:34;--d:3"><span class="s-name">nhs-nearby</span><span class="s-bar"><i></i></span><span class="s-note">3 platforms, 1 codebase</span></a></li>
+          <li><a class="span c" href="#p-fraud" style="--x:38;--w:30;--d:4"><span class="s-name">fraud-scoring</span><span class="s-bar"><i></i></span><span class="s-note">PR-AUC 0.78</span></a></li>
+          <li><a class="span end c" href="#more" style="--x:50;--w:22;--d:5"><span class="s-name">docs-rag</span><span class="s-bar"><i></i></span><span class="s-note">222 eval questions</span></a></li>
+          <li><a class="span end c" href="#more" style="--x:58;--w:20;--d:6"><span class="s-name">llm-evalops</span><span class="s-bar"><i></i></span><span class="s-note">CI quality gate</span></a></li>
+          <li><a class="span end b" href="#more" style="--x:66;--w:22;--d:7"><span class="s-name">briefing-agent</span><span class="s-bar"><i></i></span><span class="s-note">fault-injection tested</span></a></li>
+          <li><a class="span end c" href="#more" style="--x:78;--w:20;--d:8"><span class="s-name">llm-distill</span><span class="s-bar"><i></i></span><span class="s-note">17 ms on a CPU</span></a></li>
+        </ol>
+        <p class="trace-foot">I built a viewer for traces like this one. Each bar is a project: select one to jump to it.</p>
+      </div>
+    </section>
+
+    <section id="work" class="block">
+      <header class="block-head">
+        <p class="kicker">01 · Selected work</p>
+        <h2>Four projects, each with something you can open.</h2>
+      </header>
+
+      <article class="project" id="p-24fm">
+        <div class="shot wide"><img src="assets/24fm.webp" width="1440" height="900" alt="Home page of the 24 Frames Mozart streaming site, with a featured film and navigation for movies, live events and series." loading="lazy"></div>
+        <div class="p-body">
+          <p class="p-tag">Frontend · Production</p>
+          <h3>24FramesMozart</h3>
+          <p>A video streaming platform for films and live events, in production. I was the main frontend engineer: I built the browse, playback and account screens against the team's REST APIs, and owned routing, state and responsive layout.</p>
+          <ul class="chips"><li>React</li><li>Next.js</li><li>REST APIs</li></ul>
+          <p class="links"><a href="https://24framesmozart.com" rel="noopener">24framesmozart.com <span aria-hidden="true">↗</span></a></p>
+        </div>
+      </article>
+
+      <article class="project flip" id="p-trace">
+        <div class="shot wide"><img src="assets/trace-explorer.webp" width="1440" height="900" alt="Trace Explorer showing cost, latency percentiles and a table of LLM calls loaded from a sample log file." loading="lazy"></div>
+        <div class="p-body">
+          <p class="p-tag">Frontend · Tooling</p>
+          <h3>Trace Explorer</h3>
+          <p>Drop in a log of LLM calls and see where the time and money went. It runs entirely in the browser, so the file never leaves your tab. A span waterfall, cost and latency charts, and a view that compares two runs.</p>
+          <dl class="facts">
+            <div><dt>54</dt><dd>automated tests</dd></div>
+            <div><dt>100k</dt><dd>rows in under 1 s</dd></div>
+            <div><dt>0</dt><dd>accessibility violations</dd></div>
+          </dl>
+          <ul class="chips"><li>React</li><li>TypeScript</li><li>Vite</li><li>Playwright</li></ul>
+          <p class="links"><a href="https://palademian-jose.github.io/trace-explorer/" rel="noopener">Live demo <span aria-hidden="true">↗</span></a><a href="https://github.com/palademian-jose/trace-explorer" rel="noopener">Code <span aria-hidden="true">↗</span></a></p>
+        </div>
+      </article>
+
+      <article class="project" id="p-nhs">
+        <div class="shot phones">
+          <img src="assets/nhs-list.webp" width="520" height="1040" alt="NHS Nearby list view showing the closest pharmacies to a postcode with distances." loading="lazy">
+          <img src="assets/nhs-map.webp" width="520" height="1040" alt="NHS Nearby map view with pins for nearby health services." loading="lazy">
+          <img src="assets/nhs-ask.webp" width="520" height="1040" alt="NHS Nearby ask view answering a plain-English question about the nearest pharmacy." loading="lazy">
+        </div>
+        <div class="p-body">
+          <p class="p-tag">Mobile · API · Open data</p>
+          <h3>NHS Nearby Scotland</h3>
+          <p>Find the nearest GP, pharmacy, dentist or hospital in Scotland from open NHS data. One TypeScript codebase for iOS, Android and web, with a Python API behind it. Plain-English questions are answered only after code checks every distance against the data.</p>
+          <dl class="facts">
+            <div><dt>3</dt><dd>platforms, one codebase</dd></div>
+            <div><dt>136</dt><dd>automated tests</dd></div>
+            <div><dt>40</dt><dd>test questions, failures kept visible</dd></div>
+          </dl>
+          <ul class="chips"><li>Expo (React Native)</li><li>FastAPI</li><li>DuckDB</li></ul>
+          <p class="links"><a href="https://github.com/palademian-jose/scotland-nhs-nearby" rel="noopener">Code <span aria-hidden="true">↗</span></a></p>
+        </div>
+      </article>
+
+      <article class="project flip" id="p-fraud">
+        <div class="shot chart"><img src="assets/fraud-pr-curve.webp" width="715" height="650" alt="Precision-recall curve for the fraud model on the held-out test period." loading="lazy"></div>
+        <div class="p-body">
+          <p class="p-tag">Machine learning · API</p>
+          <h3>Fraud Scoring Service</h3>
+          <p>A card-fraud model and API on 284,807 real transactions, where only 0.17% are fraud. Split by time, a threshold chosen by cost, reason codes with every score, and a write-up that says where the model is not proven better than a simple baseline.</p>
+          <dl class="facts">
+            <div><dt>0.78</dt><dd>PR-AUC, interval 0.69 to 0.86</dd></div>
+            <div><dt>84%</dt><dd>of fraud in the top 1% of scores</dd></div>
+            <div><dt>21 ms</dt><dd>to score, with reasons</dd></div>
+          </dl>
+          <ul class="chips"><li>Python</li><li>LightGBM</li><li>FastAPI</li></ul>
+          <p class="links"><a href="https://github.com/palademian-jose/fraud-scoring-service" rel="noopener">Code <span aria-hidden="true">↗</span></a></p>
+        </div>
+      </article>
+    </section>
+
+    <section id="more" class="block">
+      <header class="block-head">
+        <p class="kicker">02 · More projects</p>
+        <h2>LLM engineering and hackathon builds.</h2>
+      </header>
+      <div class="grid">
+        <a class="card" href="https://github.com/palademian-jose/docs-rag" rel="noopener">
+          <p class="p-tag">Retrieval</p><h3>Docs RAG</h3>
+          <p>Question answering over documentation that cites the exact source lines, and refuses when the docs do not cover the question.</p>
+          <span class="card-foot">222 test questions in CI <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="card" href="https://github.com/palademian-jose/llm-evalops" rel="noopener">
+          <p class="p-tag">Evaluation</p><h3>LLM EvalOps</h3>
+          <p>A toolkit that scores an LLM app on a fixed test set and fails the build when quality drops. My other projects use it.</p>
+          <span class="card-foot">Statistical CI gate <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="card" href="https://github.com/palademian-jose/briefing-agent" rel="noopener">
+          <p class="p-tag">Agents</p><h3>Briefing Agent</h3>
+          <p>A research agent with strict tool schemas, typed errors, saved state and a verifier that checks every claim against its source.</p>
+          <span class="card-foot">Tested with injected faults <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="card" href="https://github.com/palademian-jose/llm-distill" rel="noopener">
+          <p class="p-tag">Fine-tuning</p><h3>LLM Distill</h3>
+          <p>Replaces one yes-or-no LLM call with a small fine-tuned model, and measures accuracy, latency and cost side by side.</p>
+          <span class="card-foot">PyTorch to ONNX, runs on CPU <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="card" href="https://github.com/palademian-jose/reform-agentic" rel="noopener">
+          <p class="p-tag">Hackathon · Rangsit 2026</p><h3>Reform</h3>
+          <p>Tests a web app in the browser, diagnoses failures and proposes code patches that you approve in an overlay on the page.</p>
+          <span class="card-foot">TypeScript, Node.js <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="card" href="https://devpost.com/software/mentabyte" rel="noopener">
+          <p class="p-tag">Hackathon · Bolt 2025</p><h3>Mentabyte</h3>
+          <p>An AI coding coach with daily personalised challenges, code evaluation and voice feedback. Built solo.</p>
+          <span class="card-foot">Next.js, Supabase <span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section id="skills" class="block">
+      <header class="block-head">
+        <p class="kicker">03 · Skills</p>
+        <h2>What I work with.</h2>
+      </header>
+      <dl class="skills">
+        <div><dt>Frontend</dt><dd>React, Next.js, TypeScript, JavaScript, Qwik, React Native (Expo)</dd></div>
+        <div><dt>Backend and data</dt><dd>Python (FastAPI), REST API design, C#, Java, SQL, NoSQL</dd></div>
+        <div><dt>Systems and tooling</dt><dd>Linux (several distributions, daily use), Bash, Git, GitHub Actions</dd></div>
+        <div><dt>Testing</dt><dd>Vitest, Playwright, pytest</dd></div>
+        <div><dt>AI tooling</dt><dd>LLM APIs, AI-assisted development with code review and tests</dd></div>
+      </dl>
+    </section>
+
+    <section id="about" class="block about">
+      <header class="block-head">
+        <p class="kicker">04 · About</p>
+        <h2>Bangkok now. Tokyo next.</h2>
+      </header>
+      <div class="about-grid">
+        <div class="prose">
+          <p>I am from Myanmar and I study Computer Science at Rangsit University in Thailand, where I graduate in May 2027. I started on the frontend, shipping screens for a streaming platform that people pay to use, and that set my standard: work is finished when it holds up in front of real users.</p>
+          <p>Since then I have moved down the stack, into APIs, data and the evaluation of machine learning systems. I like projects where the write-up is honest about what was measured and what was not.</p>
+          <p>I am looking for a software engineering internship in Tokyo in 2027 and a full-time role in Japan after graduation.</p>
+        </div>
+        <ul class="timeline">
+          <li><span>2027</span><div><b>B.Sc. Computer Science</b>Rangsit University, Thailand · expected May · GPA 3.5 / 4.00</div></li>
+          <li><span>2026</span><div><b>Rangsit University Hackathon</b>Built Reform</div></li>
+          <li><span>2025</span><div><b>Bolt Hackathon</b>Built Mentabyte, solo</div></li>
+          <li><span>2022</span><div><b>Higher National Diploma in Computing</b>Youth International College · Outstanding Student Award</div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="block contact">
+      <p class="kicker">05 · Contact</p>
+      <h2>Have a role or a question? <a href="mailto:aquilusnorman101@gmail.com">Write to me<span class="dot">.</span></a></h2>
+      <p class="contact-links">
+        <a href="mailto:aquilusnorman101@gmail.com">aquilusnorman101@gmail.com</a>
+        <a href="https://github.com/palademian-jose" rel="noopener">github.com/palademian-jose</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© <span id="year">2026</span> Zwe Yan Naing</span>
+    <span>Burmese · English</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
